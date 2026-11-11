@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Preview
+Name[zh_CN]=预览
+GenericName=Image and Video Viewer
+GenericName[zh_CN]=图片和视频查看器
+Comment=View images and videos with a macOS-style interface
+Comment[zh_CN]=以 macOS 风格快速查看图片和视频
+Exec=@EXEC@ %F
+Icon=org.clavis.Preview
+Terminal=false
+Categories=Graphics;Viewer;
+Keywords=image;photo;picture;video;viewer;preview;图片;照片;视频;预览;
+MimeType=image/png;image/jpeg;image/webp;image/gif;image/bmp;image/tiff;image/svg+xml;image/avif;image/heic;image/heif;video/mp4;video/webm;video/x-matroska;video/quicktime;video/mpeg;video/x-msvideo;video/ogg;video/x-m4v;
+StartupNotify=true
+StartupWMClass=org.clavis.Preview
